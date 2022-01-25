@@ -11,7 +11,7 @@ export const GifGrid = ( {category} ) => {
 
     return (
         <>
-            <h3 className="animate__animated animate__fadeIn"> { category ? `Resultados sobre la busqueda de: ${ category }` : <img className="lupa" src={require("../img/img (2).png")} alt="foto"/> }</h3>
+            <h3 className="animate__animated animate__fadeIn"> { category ? `Resultados sobre la busqueda de: ${ category }` : <img className="lupa" src={ require("../img/img.png") } alt="foto"/> }</h3>
 
             { loading && <p className="animate__animated animate__flash">Loading...</p>} 
 

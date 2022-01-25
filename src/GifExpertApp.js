@@ -11,7 +11,7 @@ const GiftExpertApp = () => {
 
     return (
         <>
-            <h2 className="animate__animated animate__flipInX">GIFS SEARCH APP <img src={ require('./img/icon.png') } alt="icon" /> </h2>
+            <h2 className="animate__animated animate__flipInX"> GIFS SEARCH APP <img src={ require('./img/icon.png') } alt="icon" /> </h2>
             <AddCategory setCategories={ setCategories } />
             <hr />
 
